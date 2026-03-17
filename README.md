@@ -88,16 +88,4 @@ Todos los endpoints se acceden a través del gateway en `http://localhost:5000`.
 
 ---
 
-## Autenticación
 
-El `users-service` usa **JWT (JSON Web Tokens)**. Para endpoints protegidos, incluir el header:
-
-```
-Authorization: Bearer <token>
-```
-
----
-
-## Variables de entorno
-
-Las variables de entorno están definidas en `docker-compose.yml`. Para producción, utilizar un archivo `.env` y no hardcodear secrets.
